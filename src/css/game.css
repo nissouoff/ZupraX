@@ -1,0 +1,151 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000011;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+#hud {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+
+
+#controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 20;
+  pointer-events: auto;
+}
+
+button {
+  background: #ff5500;
+  border: none;
+  padding: 12px 18px;
+  color: white;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #ff3300;
+}
+
+#header {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #11032c;
+  z-index: 10;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  margin: 0px;
+  display: none;
+}
+
+#bottomNav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 15;
+  border-top: 2px solid #222;
+}
+
+#bottomNav button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#bottomNav button:hover {
+  color: #1abc9c;
+}
+
+.et1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 15;
+  border-top: 2px solid #222;
+  border-radius: 36px 36px 0 0;
+  &
+  #stakeBtn, #recoverBtn, #resultBtn {
+    font-size: 14px;
+  }
+}
+
+.et2 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  z-index: 15;
+  border-top: 2px solid #222;
+  display: none;
+  border-radius: 36px 36px 0 0;
+  &
+  #zpx-valeur {
+    width: 150px;
+    border-radius: 33px;
+    padding: 20px;
+    font-size: 14px;
+    height: 5px;
+    text-align: center;
+
+  }
+
+  #startBtn {
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color:rgb(9, 95, 193);
+  border: none;
+  border-radius: 33px;
+  cursor: pointer;
+  color: white;
+  margin-left: 30px;
+  font-size: 13px;
+
+  }
+
+  #startBtn:hover {
+  background-color:rgb(22, 36, 160);
+}
+
+}
+
+@media (max-width: 480px) {
+  button {
+    padding: 10px 14px;
+    font-size: 0.9em;
+  }
+}
