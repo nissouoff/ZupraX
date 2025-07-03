@@ -1,0 +1,702 @@
+[
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Résous l'équation pour passer : 6 + 8 = ?",
+    "answer": 14,
+    "ref": "277793ff-0e6e-44a7-9190-1fdedadbce37"
+  },
+  {
+    "type": "A",
+    "title": "🚀 Problème moteur",
+    "question": "Répare le circuit : 5 - 3 = ?",
+    "answer": 2,
+    "ref": "d2ec4194-ecdf-489b-8828-5ad06bfd275e"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Résous l'équation pour passer : 1 + 9 = ?",
+    "answer": 10,
+    "ref": "3143962e-fa8f-411b-b989-d1a62d1b0c64"
+  },
+  {
+    "type": "A",
+    "title": "🧠 Problème de navigation",
+    "question": "Répare le circuit : 9 - 6 = ?",
+    "answer": 3,
+    "ref": "c8644786-8e27-4287-aa76-2cdf4def4383"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Résous l'équation pour passer : 9 + 9 = ?",
+    "answer": 18,
+    "ref": "04b27f16-2d25-4e13-9b0d-631a41c9b97b"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Résous l'équation pour passer : 2 + 5 = ?",
+    "answer": 7,
+    "ref": "f92e11f5-744a-42c4-ac69-179f61986a2a"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Résous l'équation pour passer : 2 + 6 = ?",
+    "answer": 8,
+    "ref": "116e5d5b-2062-45cd-97ff-50623093bcb3"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Stabilise le courant : 2 * 0 = ?",
+    "answer": 0,
+    "ref": "1ee1a790-4b57-4b01-8ca3-78f4689659dc"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Stabilise le courant : 6 * 1 = ?",
+    "answer": 6,
+    "ref": "d2278a3e-1040-445f-9c9b-0fcf49bdbbeb"
+  },
+  {
+    "type": "A",
+    "title": "🧠 Problème de navigation",
+    "question": "Stabilise le courant : 2 * 3 = ?",
+    "answer": 6,
+    "ref": "1a87f015-2c9e-469f-868c-62cd4e822dbe"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Répare le circuit : 9 - 7 = ?",
+    "answer": 2,
+    "ref": "a8081345-7fb8-4b15-9786-6da3994ef38a"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Résous l'équation pour passer : 1 + 5 = ?",
+    "answer": 6,
+    "ref": "db0d3940-61be-4a78-8b47-5aa3ff4b7857"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Résous l'équation pour passer : 1 + 1 = ?",
+    "answer": 2,
+    "ref": "9c460c06-b99a-4fb9-b7a5-651b8d85d954"
+  },
+  {
+    "type": "A",
+    "title": "🛠️ Module cassé",
+    "question": "Stabilise le courant : 6 * 9 = ?",
+    "answer": 54,
+    "ref": "8d4d72d5-bb40-4197-bb01-2fde24365b95"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Répare le circuit : 8 - 5 = ?",
+    "answer": 3,
+    "ref": "949f726d-5cf2-449f-a9c3-62064ec97105"
+  },
+  {
+    "type": "A",
+    "title": "🧠 Problème de navigation",
+    "question": "Stabilise le courant : 2 * 5 = ?",
+    "answer": 10,
+    "ref": "120095be-b34e-4b28-a513-d1183b7b69fa"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Résous l'équation pour passer : 4 + 6 = ?",
+    "answer": 10,
+    "ref": "8fe9307b-d47a-4c9f-ac7a-fd260ffbdf18"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Résous l'équation pour passer : 9 + 5 = ?",
+    "answer": 14,
+    "ref": "e65bfa86-f20a-4c60-b390-693f92edd511"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Résous l'équation pour passer : 5 + 3 = ?",
+    "answer": 8,
+    "ref": "7c0b98e7-95ee-4d67-8317-528a6a5b4ef0"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Répare le circuit : 5 - 6 = ?",
+    "answer": -1,
+    "ref": "ce1400c6-ca68-49a0-8b0e-a4122ec377a0"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Répare le circuit : 0 - 7 = ?",
+    "answer": -7,
+    "ref": "9f4f7d35-39ed-496a-81b4-30bf0435c418"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Stabilise le courant : 8 * 9 = ?",
+    "answer": 72,
+    "ref": "8f1f6335-d140-4123-973b-8943141cfd91"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Résous l'équation pour passer : 4 + 8 = ?",
+    "answer": 12,
+    "ref": "0be2a66c-0f5f-4be6-8434-bf7aedb9b35b"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Stabilise le courant : 6 * 3 = ?",
+    "answer": 18,
+    "ref": "386116a7-e820-4fe6-ba9f-638d2001f8b0"
+  },
+  {
+    "type": "A",
+    "title": "🧠 Problème de navigation",
+    "question": "Résous l'équation pour passer : 6 + 2 = ?",
+    "answer": 8,
+    "ref": "19aea516-be28-4d0c-9799-fa5241425601"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Stabilise le courant : 3 * 9 = ?",
+    "answer": 27,
+    "ref": "caff882c-2743-4303-87a9-3a8019474e8a"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Répare le circuit : 2 - 5 = ?",
+    "answer": -3,
+    "ref": "197fb414-20d7-4017-b2c8-631a09c5a485"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Stabilise le courant : 9 * 0 = ?",
+    "answer": 0,
+    "ref": "d2b0463d-0db6-46d6-bc38-41569dae6269"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Stabilise le courant : 5 * 0 = ?",
+    "answer": 0,
+    "ref": "3b72c937-ad60-48ed-a051-efec3055746d"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Résous l'équation pour passer : 3 + 6 = ?",
+    "answer": 9,
+    "ref": "b5475a34-5ed2-4028-9a2f-84d14c867779"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Stabilise le courant : 7 * 3 = ?",
+    "answer": 21,
+    "ref": "de2f8b58-cedb-4cfe-b044-40562afe2532"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Résous l'équation pour passer : 2 + 4 = ?",
+    "answer": 6,
+    "ref": "c6305e14-654c-430b-9c56-d4538a4ef552"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Résous l'équation pour passer : 0 + 6 = ?",
+    "answer": 6,
+    "ref": "596c8be8-2e75-4ab4-919e-ce7d618eb737"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Répare le circuit : 9 - 8 = ?",
+    "answer": 1,
+    "ref": "5786fb68-fdec-442c-992b-e2535a74e201"
+  },
+  {
+    "type": "A",
+    "title": "🛠️ Module cassé",
+    "question": "Répare le circuit : 5 - 9 = ?",
+    "answer": -4,
+    "ref": "f7a68f29-ce3c-48af-b5f0-31407d0348ea"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Résous l'équation pour passer : 7 + 9 = ?",
+    "answer": 16,
+    "ref": "2cd50299-d47f-4c44-88eb-9a68f5521912"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Stabilise le courant : 9 * 4 = ?",
+    "answer": 36,
+    "ref": "c547fbb3-f18b-4241-929c-06ea256ab3ec"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Répare le circuit : 9 - 2 = ?",
+    "answer": 7,
+    "ref": "6173486e-0076-45a4-92dd-33e1bb0e80fa"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Stabilise le courant : 7 * 0 = ?",
+    "answer": 0,
+    "ref": "4781dc82-ed67-49e5-94f8-974eb549ac2b"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Répare le circuit : 2 - 5 = ?",
+    "answer": -3,
+    "ref": "d77c9537-35bb-46d0-b8f2-a41f6f3a9f1c"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Résous l'équation pour passer : 9 + 2 = ?",
+    "answer": 11,
+    "ref": "4a8d7210-02b8-4b67-b1aa-df6ec7915504"
+  },
+  {
+    "type": "A",
+    "title": "🛠️ Module cassé",
+    "question": "Résous l'équation pour passer : 1 + 2 = ?",
+    "answer": 3,
+    "ref": "63d5981a-0286-456d-bd6a-1b9ae4d26ab8"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Stabilise le courant : 2 * 1 = ?",
+    "answer": 2,
+    "ref": "183c70ed-197b-4957-b4cc-803cf6bfc11b"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Stabilise le courant : 5 * 6 = ?",
+    "answer": 30,
+    "ref": "f344cc0f-1a30-4635-b9eb-441d1baae2a1"
+  },
+  {
+    "type": "A",
+    "title": "🧠 Problème de navigation",
+    "question": "Répare le circuit : 8 - 7 = ?",
+    "answer": 1,
+    "ref": "99ae0c78-c2e4-40c2-a775-7d68ed286076"
+  },
+  {
+    "type": "A",
+    "title": "🚀 Problème moteur",
+    "question": "Résous l'équation pour passer : 8 + 6 = ?",
+    "answer": 14,
+    "ref": "d444992e-0799-4b63-baec-d341d7730b5f"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Stabilise le courant : 8 * 3 = ?",
+    "answer": 24,
+    "ref": "59327100-8b07-4d1f-a377-d8c8a0d09558"
+  },
+  {
+    "type": "A",
+    "title": "🛠️ Module cassé",
+    "question": "Stabilise le courant : 7 * 7 = ?",
+    "answer": 49,
+    "ref": "8da4d2c8-5fda-4eeb-8d0e-2be362d6e5f6"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Stabilise le courant : 5 * 4 = ?",
+    "answer": 20,
+    "ref": "2809982a-a3c5-4786-8a1e-a69463abb654"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Stabilise le courant : 4 * 0 = ?",
+    "answer": 0,
+    "ref": "1c8ef339-6b69-468a-9cc1-dd6be5d09ac5"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Répare le circuit : 0 - 7 = ?",
+    "answer": -7,
+    "ref": "576c3034-cdcf-424c-a458-163ba12f8e08"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Stabilise le courant : 2 * 3 = ?",
+    "answer": 6,
+    "ref": "ffa40809-c39c-4d39-becc-c094ffe6c9c0"
+  },
+  {
+    "type": "A",
+    "title": "🚀 Problème moteur",
+    "question": "Stabilise le courant : 0 * 9 = ?",
+    "answer": 0,
+    "ref": "c517db29-58dd-4bf9-b12c-3a8e938e6070"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Résous l'équation pour passer : 2 + 8 = ?",
+    "answer": 10,
+    "ref": "d374f10d-179d-4bf7-8beb-799753bef514"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Résous l'équation pour passer : 3 + 6 = ?",
+    "answer": 9,
+    "ref": "6365ed75-6301-4719-99b5-197791e686b2"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Résous l'équation pour passer : 9 + 4 = ?",
+    "answer": 13,
+    "ref": "6f5fc606-5f00-4766-82e5-ccc230bb9f54"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Répare le circuit : 3 - 8 = ?",
+    "answer": -5,
+    "ref": "bb27ea4a-4e44-49db-9230-71d22c5334af"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Stabilise le courant : 5 * 0 = ?",
+    "answer": 0,
+    "ref": "74080895-7289-4f51-8e04-f81452aa1dac"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Résous l'équation pour passer : 5 + 8 = ?",
+    "answer": 13,
+    "ref": "70fb513e-d5d0-490f-9642-6d885421b782"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Stabilise le courant : 9 * 0 = ?",
+    "answer": 0,
+    "ref": "b0d90b98-89c1-4264-a9f7-6b96086d35c1"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Répare le circuit : 3 - 2 = ?",
+    "answer": 1,
+    "ref": "459c5dcf-a7f6-4ac6-bf32-677b4e4b7ee3"
+  },
+  {
+    "type": "A",
+    "title": "🛠️ Module cassé",
+    "question": "Répare le circuit : 0 - 7 = ?",
+    "answer": -7,
+    "ref": "8906b53e-ea61-4d44-9488-e0c783ed3285"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Résous l'équation pour passer : 8 + 9 = ?",
+    "answer": 17,
+    "ref": "3c266f5d-1dd9-43e6-aa33-d9926f93e662"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Répare le circuit : 2 - 0 = ?",
+    "answer": 2,
+    "ref": "2cf3dfca-edd3-41e7-9980-62b4b7d2de7f"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Résous l'équation pour passer : 5 + 6 = ?",
+    "answer": 11,
+    "ref": "59d6c4e3-2570-4e1e-94c2-965833a8a042"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Stabilise le courant : 6 * 3 = ?",
+    "answer": 18,
+    "ref": "d989f079-0b60-4b38-9270-8fce2b03b46b"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Résous l'équation pour passer : 1 + 5 = ?",
+    "answer": 6,
+    "ref": "2fd15a6d-43c9-46ea-b8fb-66dc6254d100"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Résous l'équation pour passer : 2 + 8 = ?",
+    "answer": 10,
+    "ref": "8b8f0560-b897-4168-ac56-37c4648198be"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Répare le circuit : 9 - 2 = ?",
+    "answer": 7,
+    "ref": "36313788-d283-4210-83de-9383b9790701"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Résous l'équation pour passer : 6 + 6 = ?",
+    "answer": 12,
+    "ref": "aacdaa4f-0f51-4ed4-a674-158a4f87145c"
+  },
+  {
+    "type": "A",
+    "title": "🪐 Coordonnées perdues",
+    "question": "Répare le circuit : 6 - 7 = ?",
+    "answer": -1,
+    "ref": "0b63b306-ef05-467c-88f5-b049acb29d6b"
+  },
+  {
+    "type": "A",
+    "title": "🛠️ Module cassé",
+    "question": "Résous l'équation pour passer : 8 + 4 = ?",
+    "answer": 12,
+    "ref": "4bdacd8d-f020-4708-ab8f-95ae7bdc9dd8"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Résous l'équation pour passer : 3 + 8 = ?",
+    "answer": 11,
+    "ref": "55577cdf-d8f4-4141-aaa2-6517f522a2e7"
+  },
+  {
+    "type": "A",
+    "title": "🚀 Problème moteur",
+    "question": "Stabilise le courant : 9 * 6 = ?",
+    "answer": 54,
+    "ref": "5b628211-daac-41f1-bbfe-f1c6e6d9a125"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Résous l'équation pour passer : 2 + 0 = ?",
+    "answer": 2,
+    "ref": "f2c27e2f-b7fb-4fe0-9f89-d90fb17537f2"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Résous l'équation pour passer : 4 + 7 = ?",
+    "answer": 11,
+    "ref": "88fd1e32-43ad-4b26-96fa-2d33ca360183"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Résous l'équation pour passer : 5 + 0 = ?",
+    "answer": 5,
+    "ref": "b0d8da29-9519-4d93-aef3-691bd6b31f64"
+  },
+  {
+    "type": "A",
+    "title": "🧠 Problème de navigation",
+    "question": "Stabilise le courant : 3 * 8 = ?",
+    "answer": 24,
+    "ref": "25378544-06e3-4d4c-9533-106d3d9cacef"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Stabilise le courant : 8 * 7 = ?",
+    "answer": 56,
+    "ref": "ef7c527b-97a7-4f4a-bf9f-c62e8250d180"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Résous l'équation pour passer : 5 + 1 = ?",
+    "answer": 6,
+    "ref": "ce400903-866f-448e-9072-db393401a847"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Résous l'équation pour passer : 6 + 0 = ?",
+    "answer": 6,
+    "ref": "ca6a91fc-300c-476c-99ee-7f88afe86a7a"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Résous l'équation pour passer : 4 + 6 = ?",
+    "answer": 10,
+    "ref": "3f949d92-f681-446a-9eaf-4821dd088b13"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Répare le circuit : 7 - 8 = ?",
+    "answer": -1,
+    "ref": "2b9b1397-37ad-4817-b4d8-35a0926739e0"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Stabilise le courant : 5 * 4 = ?",
+    "answer": 20,
+    "ref": "eeeb5d0f-0e67-4893-ab10-3127bb9e28fb"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Résous l'équation pour passer : 9 + 2 = ?",
+    "answer": 11,
+    "ref": "2fb37400-a99c-4926-95e1-4c6e9c111938"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Stabilise le courant : 0 * 3 = ?",
+    "answer": 0,
+    "ref": "14b7ddd1-435f-4e9b-a3f2-8f0c6eefbedb"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Résous l'équation pour passer : 2 + 1 = ?",
+    "answer": 3,
+    "ref": "1bd78e95-7c87-4a53-9d3d-50008866971e"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Répare le circuit : 4 - 7 = ?",
+    "answer": -3,
+    "ref": "a6026fc1-da98-4071-a65b-76a3846de57e"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Répare le circuit : 2 - 9 = ?",
+    "answer": -7,
+    "ref": "6c9f55bf-6b21-4590-a049-1834969aa961"
+  },
+  {
+    "type": "A",
+    "title": "🧨 Détonateur bloqué",
+    "question": "Résous l'équation pour passer : 3 + 5 = ?",
+    "answer": 8,
+    "ref": "376b9961-3c47-490b-8acb-183f90e51c43"
+  },
+  {
+    "type": "A",
+    "title": "🧭 Calcul de trajectoire",
+    "question": "Stabilise le courant : 3 * 3 = ?",
+    "answer": 9,
+    "ref": "64642862-2b07-403e-92fe-3ce9d3d4afe2"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Résous l'équation pour passer : 4 + 4 = ?",
+    "answer": 8,
+    "ref": "f4ab36f5-8433-4378-a1bb-00d2940f6c13"
+  },
+  {
+    "type": "A",
+    "title": "💻 Erreur système",
+    "question": "Résous l'équation pour passer : 0 + 5 = ?",
+    "answer": 5,
+    "ref": "7cc0d595-c87d-4abd-9922-94b73c960e84"
+  },
+  {
+    "type": "A",
+    "title": "🚀 Problème moteur",
+    "question": "Répare le circuit : 4 - 2 = ?",
+    "answer": 2,
+    "ref": "9ee83d5f-0101-4747-8950-4e5254813521"
+  },
+  {
+    "type": "A",
+    "title": "🚀 Problème moteur",
+    "question": "Répare le circuit : 9 - 2 = ?",
+    "answer": 7,
+    "ref": "7f91f804-f724-44dd-b836-7b0215f4384b"
+  },
+  {
+    "type": "A",
+    "title": "⚡ Surcharge électrique",
+    "question": "Répare le circuit : 0 - 9 = ?",
+    "answer": -9,
+    "ref": "7f5a0bc1-e877-4b65-adfd-4ea581585aea"
+  },
+  {
+    "type": "A",
+    "title": "🔒 Accès verrouillé",
+    "question": "Répare le circuit : 3 - 0 = ?",
+    "answer": 3,
+    "ref": "3e9dec4d-f56b-42b9-a8b3-c08780c8f54b"
+  },
+  {
+    "type": "A",
+    "title": "🛰️ Satellite en panne",
+    "question": "Répare le circuit : 3 - 8 = ?",
+    "answer": -5,
+    "ref": "202d5a0e-1285-48d8-98cd-7934c041e447"
+  },
+  {
+    "type": "A",
+    "title": "🚀 Problème moteur",
+    "question": "Résous l'équation pour passer : 4 + 9 = ?",
+    "answer": 13,
+    "ref": "52d26c20-ed3d-4333-a666-74788743674b"
+  },
+  {
+    "type": "A",
+    "title": "🛠️ Module cassé",
+    "question": "Répare le circuit : 6 - 2 = ?",
+    "answer": 4,
+    "ref": "ef24af1c-c8f7-446b-8d14-dc5d3756466b"
+  }
+]
