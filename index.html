@@ -16,6 +16,7 @@
   <div class="content">
     <h1>🚀 Welcome to ZPX</h1>
     <button onclick="alert('Login clicked')">Connect Wallet / Login</button>
+    <p id="alp"></p>
   </div>
 
   <!-- Script des étoiles -->
@@ -60,6 +61,32 @@
       canvas.height = window.innerHeight;
     });
   </script>
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    // Vérifie si on est dans Telegram
+    if (window.Telegram && Telegram.WebApp && Telegram.WebApp.initDataUnsafe) {
+      const user = Telegram.WebApp.initDataUnsafe.user;
+
+      if (user) {
+        // Exemple : afficher dans un élément avec id="alp"
+        const infoHTML = `
+          👤 <strong>${user.first_name}</strong><br>
+          🆔 <strong>${user.id}</strong><br>
+          🧑‍💼 <strong>@${user.username || 'no username'}</strong><br>
+          🌐 Langue : <strong>${user.language_code}</strong>
+        `;
+
+        document.getElementById('alp').innerHTML = infoHTML;
+      } else {
+        document.getElementById('alp').innerText = "Utilisateur non détecté.";
+      }
+    } else {
+      document.getElementById('alp').innerText = "Non lancé depuis Telegram.";
+    }
+  });
+</script>
 
 </body>
 </html>
