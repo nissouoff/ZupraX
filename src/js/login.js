@@ -1,48 +1,44 @@
-// Frontend sécurisé – pas d’affichage public des infos
+  
 window.addEventListener("DOMContentLoaded", () => {
-  if (window.Telegram && Telegram.WebApp && Telegram.WebApp.initDataUnsafe) {
-    const user = Telegram.WebApp.initDataUnsafe.user;
 
-    document.getElementById('join').addEventListener('click', async () => {
-      if (!user) return alert("User not detected in Telegram");
+  const canvas = document.getElementById('starsCanvas');
+    const ctx = canvas.getContext('2d');
 
-      // Construction de l’objet utilisateur
-      const userInfo = {
-        id: user.id,
-        firstName: user.first_name,
-        lastName: user.last_name || null,
-        username: user.username || null,
-        language: user.language_code || null,
-        birthDate: user.birth_date || null, // ⚠️ Très rarement dispo
-        platform: "telegram",
-        joinedAt: new Date().toISOString()
-      };
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
-      // Optionnel : affichage léger
-      document.getElementById("alp").innerText = "Enregistrement en cours...";
+    const stars = [];
 
-      try {
-        // Ici on envoie les données vers le backend (POST /api/telegram-login par ex)
-        const res = await fetch("https://ton-backend.com/api/telegram-login", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(userInfo)
-        });
+    for (let i = 0; i < 300; i++) {
+      stars.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        radius: Math.random() * 1.2,
+        alpha: Math.random(),
+        delta: (Math.random() * 0.02) + 0.005
+      });
+    }
 
-        const data = await res.json();
-        if (data.success) {
-          document.getElementById("alp").innerText = "✅ Connexion réussie !";
-        } else {
-          document.getElementById("alp").innerText = "❌ Erreur : " + data.message;
+    function drawStars() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let star of stars) {
+        ctx.beginPath();
+        ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+        ctx.fill();
+        star.alpha += star.delta;
+        if (star.alpha <= 0 || star.alpha >= 1) {
+          star.delta = -star.delta;
         }
-      } catch (err) {
-        console.error(err);
-        document.getElementById("alp").innerText = "⚠️ Connexion impossible.";
       }
+      requestAnimationFrame(drawStars);
+    }
+
+    drawStars();
+
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
     });
-  } else {
-    document.getElementById("alp").innerText = "Non lancé depuis Telegram.";
-  }
-});
+
+      });

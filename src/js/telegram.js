@@ -1,26 +1,55 @@
+// frontend.js
 
-  window.addEventListener("DOMContentLoaded", () => {
-    // Vérifie si on est dans Telegram
-    if (window.Telegram && Telegram.WebApp && Telegram.WebApp.initDataUnsafe) {
-      const user = Telegram.WebApp.initDataUnsafe.user;
+window.addEventListener("DOMContentLoaded", () => {
+  const joinBtn = document.getElementById("join");
+  const alp = document.getElementById("alp");
 
-      if (user) {
-        // Exemple : afficher dans un élément avec id="alp"
-        const infoHTML = `
-          👤 <strong>${user.first_name}</strong><br>
-          🆔 <strong>${user.id}</strong><br>
-          🧑‍💼 <strong>@${user.username || 'no username'}</strong><br>
-          🌐 Langue : <strong>${user.language_code}</strong>
-        `;
+  if (!window.Telegram || !Telegram.WebApp || !Telegram.WebApp.initDataUnsafe) {
+    alp.innerText = "Not running in Telegram.";
+    return;
+  }
 
-        document.getElementById('alp').innerHTML = infoHTML;
+  const user = Telegram.WebApp.initDataUnsafe.user;
+
+  if (!user) {
+    alp.innerText = "No Telegram user detected.";
+    return;
+  }
+
+  // Masquer infos à l'écran
+  alp.innerText = "Connexion en cours...";
+
+  // Envoie des données après clic
+  joinBtn.addEventListener("click", async () => {
+    const userInfo = {
+      id: user.id,
+      firstName: user.first_name,
+      lastName: user.last_name || null,
+      username: user.username || null,
+      language: user.language_code || null,
+      birthDate: null,
+      joinedAt: new Date().toISOString()
+    };
+
+    try {
+      const res = await fetch("https://4b07-105-110-45-201.ngrok-free.app/api/telegram-login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(userInfo)
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        alp.innerText = `Bienvenue, ${user.first_name}!`;
+        // Tu peux ici rediriger vers viv.html ou autre
+        // window.location.href = "/viv.html";
       } else {
-        document.getElementById('alp').innerText = "Utilisateur non détecté.";
+        alp.innerText = "Erreur de connexion. Réessaie.";
       }
-    } else {
-      document.getElementById('alp').innerText = "Non lancé depuis Telegram.";
+    } catch (err) {
+      console.error("Erreur front:", err);
+      alp.innerText = "Erreur serveur. Réessaie plus tard.";
     }
-    
   });
-
-  
+});
