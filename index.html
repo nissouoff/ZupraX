@@ -15,78 +15,14 @@
   <!-- Contenu par-dessus -->
   <div class="content">
     <h1>🚀 Welcome to ZPX</h1>
-    <button onclick="alert('Login clicked')">Connect Wallet / Login</button>
+    <button id="join">Join ZupraX</button>
     <p id="alp"></p>
   </div>
 
-  <!-- Script des étoiles -->
-  <script>
-    const canvas = document.getElementById('starsCanvas');
-    const ctx = canvas.getContext('2d');
-
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-
-    const stars = [];
-
-    for (let i = 0; i < 300; i++) {
-      stars.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        radius: Math.random() * 1.2,
-        alpha: Math.random(),
-        delta: (Math.random() * 0.02) + 0.005
-      });
-    }
-
-    function drawStars() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      for (let star of stars) {
-        ctx.beginPath();
-        ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
-        ctx.fill();
-        star.alpha += star.delta;
-        if (star.alpha <= 0 || star.alpha >= 1) {
-          star.delta = -star.delta;
-        }
-      }
-      requestAnimationFrame(drawStars);
-    }
-
-    drawStars();
-
-    window.addEventListener('resize', () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    });
-  </script>
-
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    // Vérifie si on est dans Telegram
-    if (window.Telegram && Telegram.WebApp && Telegram.WebApp.initDataUnsafe) {
-      const user = Telegram.WebApp.initDataUnsafe.user;
+<script src="/src/js/telegram.js"></script>
+<script src="/src/js/login.js"></script>
 
-      if (user) {
-        // Exemple : afficher dans un élément avec id="alp"
-        const infoHTML = `
-          👤 <strong>${user.first_name}</strong><br>
-          🆔 <strong>${user.id}</strong><br>
-          🧑‍💼 <strong>@${user.username || 'no username'}</strong><br>
-          🌐 Langue : <strong>${user.language_code}</strong>
-        `;
-
-        document.getElementById('alp').innerHTML = infoHTML;
-      } else {
-        document.getElementById('alp').innerText = "Utilisateur non détecté.";
-      }
-    } else {
-      document.getElementById('alp').innerText = "Non lancé depuis Telegram.";
-    }
-  });
-</script>
 
 </body>
 </html>
